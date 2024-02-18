@@ -71,7 +71,7 @@
             <p class="text-white  "> Where safety, comfort, and punctuality converge for a seamless journey experience.
                 <br> Trust us for reliable transportation that exceeds expectations.
             </p>
-            <button class="btn bg-[#1DD100] border-none text-white hover:bg-green-300 hover:text-green-900">Buy
+            <button onclick="scrollSection()" class="btn bg-[#1DD100] border-none text-white hover:bg-green-300 hover:text-green-900">Buy
                 Tickets</button>
         </div>
 
@@ -179,14 +179,13 @@
 
     </section>
     <!-- main section -->
-    <section>
+    <section id="ticket-section">
         <!-- ticket header -->
         <div class="mt-40 border-[#1DD100] border-t-2 rounded-t-[20px] lg:rounded-t-[100px]">
             <div class=" flex flex-col items-center mt-40 space-y-4">
                 <h1 class="text-3xl font-extrabold">AS Paribahan</h1>
-                <p class="font-extralight px-3 lg:px-10 text-center"> Yes, you can run unit tests and view the results
-                    directly within the app. The integrated
-                    testing features allow for a streamlined </p>
+                <p class="font-extralight px-3 lg:px-10 text-center"> Where safety, comfort, and punctuality converge for a seamless journey experience.
+                    <br> Trust us for reliable transportation that exceeds expectations. </p>
             </div>
         </div>
 
@@ -196,7 +195,7 @@
 
 
                 <!-- info Container -->
-                <div class=" h-full py-2 lg:w-[880px]  ">
+                <div class=" h-full py-2 lg:max-w-[880px]  ">
                     <div class=" flex justify-between ">
                         <div class="flex gap-2 p-2">
                             <img src="images/bus-logo.png" alt="">
@@ -242,7 +241,7 @@
 
                 </div>
                 <!-- Divider img  -->
-                <div class="absolute hidden lg:inline-block lg:right-72"> <img src="images/info-devider.png" alt="">
+                <div class="absolute hidden  lg:inline-block lg:right-72"> <img src="images/info-devider.png" alt="">
                 </div>
                 <!-- per seat Fare -->
                 <div class="flex flex-col relative  mt-10 lg:mt-0 items-center">
@@ -257,7 +256,7 @@
     <section class="mt-60 lg:mt-10">
         <div class="flex flex-col lg:flex-row ">
             <!-- seat  -->
-            <div class="flex-1 space-y-2 m-5 lg:mx-28 lg:pr-10 border-dashed border-r-2">
+            <div class="flex-1 space-y-2 m-5 lg:ml-28 lg:pr-10 border-dashed border-r-2">
                 <h1 class="text-xl font-semibold">Select Your Seat</h1>
                 <div class="flex justify-between border-dotted border-y-4 border-gray-300">
                     <div class="flex py-3">
@@ -284,15 +283,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">A1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">A1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">A2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">A2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">A3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">A3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">A4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">A4</button>
                                     </div>
                                 </div>
                             </div>
@@ -304,15 +303,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">B1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">B1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">B2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">B2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">B3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">B3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">B4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">B4</button>
                                     </div>
                                 </div>
                             </div>
@@ -324,15 +323,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">C1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">C1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">C2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">C2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">C3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">C3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">C4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">C4</button>
                                     </div>
                                 </div>
                             </div>
@@ -344,15 +343,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">D1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">D1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">D2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">D2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">D3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">D3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">D4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">D4</button>
                                     </div>
                                 </div>
                             </div>
@@ -364,15 +363,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">E1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">E1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">E2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">E2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">E3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">E3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">E4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">E4</button>
                                     </div>
                                 </div>
                             </div>
@@ -384,15 +383,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">F1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">F1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">F2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">F2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">F3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">F3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">F4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">F4</button>
                                     </div>
                                 </div>
                             </div>
@@ -404,15 +403,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">G1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">G1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">G2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">G2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">G3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">G3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">G4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">G4</button>
                                     </div>
                                 </div>
                             </div>
@@ -424,15 +423,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">H1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">H1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">H2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">H2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">H3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">H3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">H4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">H4</button>
                                     </div>
                                 </div>
                             </div>
@@ -444,15 +443,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">I1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">I1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">I2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">I2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">I3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">I3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">I4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">I4</button>
                                     </div>
                                 </div>
                             </div>
@@ -464,15 +463,15 @@
                                 <div class="flex flex-row  justify-between w-full ">
                                     <div class="space-x-1 lg:space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">J1</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">J1</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">J2</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">J2</button>
                                     </div>
                                     <div class="space-x-3">
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">J3</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">J3</button>
                                         <button
-                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[110px] h-[56px] btn ">J4</button>
+                                            class="text-gray-500 hover:bg-green-300 seat text-lg w-14 lg:w-[80px] h-[56px] btn ">J4</button>
                                     </div>
                                 </div>
                             </div>
@@ -484,7 +483,7 @@
             </div>
 
             <!-- payment -->
-            <div class="flex-1 m-5  ">
+            <div class="flex-1 m-5 lg:mr-28  ">
                 <h1 class="text-xl font-semibold border-dotted border-b-4 pb-2 ">Payment</h1>
                 <div class="mt-5 pb-3 flex justify-between">
                     <p>Seat <span class="seat-count bg-[#1DD100] p-1 rounded-sm text-white">1</span></p>
@@ -521,6 +520,7 @@
             </div>
         </div>
     </section>
+    <script src="js/script.js"></script>
 
 </body>
 
