@@ -21,7 +21,7 @@ function cuponPrice(j){
         }
     )
     
-
+// addd
 }
 function displayName(x){
     const names=document.getElementsByClassName('.selectedclass');
