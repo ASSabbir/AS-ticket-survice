@@ -1,5 +1,27 @@
 const seats =document.querySelectorAll('.seat');
 const seatContainer=document.getElementById('seat-container')
+function cuponPrice(j){
+    const grandPrice=document.getElementById('Grand-price')
+    grandPrice.innerText=550*j;
+    const cupon=document.getElementById('cupon-name');
+    const cuponValue=cupon.value;
+    const applyBtn=document.getElementById('apply-btn')
+    
+    applyBtn.addEventListener("click",function (){
+
+        if(cuponValue =='NEW15'){
+            grandPrice.innerText=(550*j)-(Math.ceil((550*j)*.15));
+            
+        }
+        else if(cuponValue =='COUPLE20'){
+            grandPrice.innerText=(550*j)-(Math.ceil((550*j)*.20));
+        }
+            
+        }
+    )
+    
+
+}
 
 function updatePrice(i){
     const selectedSeat=document.getElementById('selected-seat');
@@ -8,6 +30,7 @@ function updatePrice(i){
     seatLeft.innerText=(40-i);
     const totalPrice=document.getElementById('total-price');
     totalPrice.innerText=550*i;
+    cuponPrice(i);
 
     
     
