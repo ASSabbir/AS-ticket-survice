@@ -5,6 +5,7 @@ function cuponPrice(j){
     grandPrice.innerText=550*j;
     const cupon=document.getElementById('cupon-name');
     const cuponValue=cupon.value;
+    // apply btn event
     const applyBtn=document.getElementById('apply-btn')
     
     applyBtn.addEventListener("click",function (){
@@ -22,6 +23,11 @@ function cuponPrice(j){
     
 
 }
+function displayName(x){
+    const names=document.getElementsByClassName('.selectedclass');
+    names.innerText;
+    console.log(names.innerText)
+}
 
 function updatePrice(i){
     const selectedSeat=document.getElementById('selected-seat');
@@ -30,6 +36,7 @@ function updatePrice(i){
     seatLeft.innerText=(40-i);
     const totalPrice=document.getElementById('total-price');
     totalPrice.innerText=550*i;
+    displayName(i);
     cuponPrice(i);
 
     
